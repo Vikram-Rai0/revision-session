@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="before">b efore dom and event</p>
+    <button id="btn" onclick="after()">click</button>
+    <script>
+      document
+        .getElementById("btn")
+        .addEventListener("click", function after() {
+          document.getElementById("before").innerHTML = "after dom and event";
+          document.getElementById("before").style.color = "blue";
+        });
+      document
+        .getElementById("btn")
+        .addEventListener("click", function (event) {
+          console.log(this);
+          console.log(event.target);
+        });
+    </script>
+  </body>
+</html>
