@@ -41,7 +41,7 @@ const UseEffect = () => {
         return () => {
             window.removeEventListener("resize", handleResize)
         }
-    }, [])
+    }, [index])
     return (
 
         <>
