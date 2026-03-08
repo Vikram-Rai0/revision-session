@@ -9,7 +9,7 @@ import OnSubmit from './components/eventHandeling/OnSubmit'
 import OnMoustOver from './components/eventHandeling/OnMoustOver'
 const App = () => {
   return (
-    <div class="border-2 solid red h-[50vh] w-[50vw] flex justify-center items-center">
+    <div  className='flex justify-center items-center '>
       {/* <ParentComponent /> */}
       {/* <UseState /> */}
       {/* <UseEffect /> */}
