@@ -1,0 +1,7 @@
+What is event handling in React?
+
+You can say:
+
+Event handling in React allows us to run functions when a user interacts with UI elements such as clicking buttons, 
+typing in inputs, hovering with a mouse, or submitting forms. React uses camelCase events like onClick, onChange,
+ onMouseOver, and onSubmit.

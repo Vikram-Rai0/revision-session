@@ -6,7 +6,7 @@ import UseEffect from './components/props/UseEffect'
 import Onclick from './components/eventHandeling/Onclick'
 import OnChange from './components/eventHandeling/OnChange'
 import OnSubmit from './components/eventHandeling/OnSubmit'
-import OnMoustOver from './components/eventHandeling/OnMoustOver'
+import OnMoustOver from './components/eventHandeling/OnMouseOver'
 const App = () => {
   return (
     <div  className='flex justify-center items-center '>

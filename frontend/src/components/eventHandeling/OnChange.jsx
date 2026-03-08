@@ -1,3 +1,18 @@
+// Definition
+
+// onChange runs when the value of an input field changes.
+
+// Real-time Use
+
+// Used in:
+
+// login forms
+
+// search bars
+
+// form validation
+
+// controlled components
 import React from 'react'
 import { useState } from 'react';
 const OnChange = () => {

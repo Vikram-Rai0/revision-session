@@ -1,3 +1,25 @@
+// Definition
+
+// onSubmit runs when a form is submitted.
+
+// Usually used with event.preventDefault() to stop page reload.
+
+// Real-time Use
+
+// Used in:
+
+// login forms
+
+// signup forms
+
+// contact forms
+
+// payment forms
+
+
+// 📌 Real use:
+// Login / Register system.
+
 import React from 'react'
 import { useState } from 'react';
 const OnSubmit = () => {

@@ -1,3 +1,20 @@
+// onMouseOver runs when the mouse pointer moves over an element.
+
+// Real-time Use
+
+// Used in:
+
+// dropdown menus
+
+// tooltips
+
+// hover effects
+
+// image preview
+
+// 📌 Real use:
+// Navbar dropdown menu on hover.
+
 import React, { useState } from "react";
 
 const OnMoustOver = () => {
